@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <dialog>
+        <form method="dialog" id="myForm">
+            <label>Player One Name</label>
+            <input type="text" value="Player One" id="p1Name" required>
+            <label>Player Two Name</label>
+            <input type="text" value="Player Two" id="p2Name" required>
+            <button type="submit" id="btn-start">Start</button>
+        </form>
+    </dialog>
+    <div class="container">
+        <h1 class="turn"></h1>
+        <div class="board"></div>
+        <button id="btn-restart">Restart</button>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
